@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="section section-pagepiling " data-offset-top="#header-main" id="gioi-thieu">
+    <div class="content position-relative h-full">
+        <style type="text/css">.animated .bg-image{
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        section .bg-image {
+            transition: opacity 1s ease, -webkit-transform 5s cubic-bezier(0.3, 0, 0.7, 1);
+            transition: transform 5s cubic-bezier(0.3, 0, 0.7, 1), opacity 1s ease;
+            transition: transform 5s cubic-bezier(0.3, 0, 0.7, 1), opacity 1s ease, -webkit-transform 5s cubic-bezier(0.3, 0, 0.7, 1);
+            background-position:center;
+        }
+
+
+        :root {
+            --animate-duration:1.5s;
+
+        }
+        </style>
+        <div class="position-absolute bottom-10 start-50 animate__animated animate__fadeIn" data-enet-animationtype="animate__fadeIn" style="
+    z-index: 1;
+    left: calc(50% - 50px);
+">&nbsp;</div>
+
+        <div class="w-100 content1 h-full">
+            <style type="text/css">
+                .shi {
+                position: relative;
+                background-color: black;
+                height: 100vh;
+                min-height: 30vh;
+                width: 100%;
+                overflow: hidden;
+            }
+            @media (max-width: 768px) {
+                .shi{
+                    height: 100%;
+                }
+            }
+
+            .shi video {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: 0;
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+            .shi .container {
+                position: relative;
+                z-index: 2;
+            }
+
+            .shi .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: black;
+                opacity: 0.5;
+                z-index: 1;
+            }
+
+            @media (pointer: coarse) and (hover: none) {
+                .shi {
+                    background: url('/files/sites/188/video-3.mp4') black no-repeat center center scroll;
+                }
+                .shi video {
+                    display: none;
+                }
+            }
+            </style>
+            <div class="shi">
+                <video autoplay="autoplay" loop="loop" muted="true" playsinline="playsinline"><source src="/files/sites/188/video-3.mp4" /></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

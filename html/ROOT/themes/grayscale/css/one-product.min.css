@@ -1,0 +1,16 @@
+.one-middle-content,.only-show-one {
+    display: none;
+}
+.one-middle-content.active,.only-show-one.active {
+    display: block;
+}
+.article.current-article {
+    max-height: calc(100vh - 180px);
+    overflow-y: scroll;
+}
+.post-comment-form {
+    display: none;
+}
+.post-comment-form.show {
+    display: block;
+}

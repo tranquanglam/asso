@@ -1,0 +1,199 @@
+.mg-blog-list {
+    padding: 70px 0 100px;
+}
+
+.mg-post {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mg-post .mg-post-title {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.mg-post .mg-post-title a {
+    color: rgba(31,26,23,1);
+}
+
+.mg-post .mg-post-title a:hover {
+    color: var(--main-bg-color);
+}
+
+.mg-post .mg-post-meta {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #96a3a9;
+}
+
+.mg-post .mg-post-meta span {
+    padding-right: 10px;
+}
+
+.mg-post .mg-post-meta span:after {
+    content: '/';
+    padding-left: 15px;
+    color: #ced4d7;
+}
+
+.mg-post .mg-post-meta span:last-child:after {
+    content: '';
+    padding-left: 0;
+}
+
+.mg-post .mg-post-meta a {
+    color: #264251;
+}
+
+.mg-post .mg-post-meta a:hover {
+    color: var(--main-bg-color);
+}
+
+.mg-post .mg-read-more {
+    font-style: italic;
+    font-size: 15px;
+}
+.mg-widget {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.mg-widget .mg-widget-title {
+    color: #fff;
+}
+
+.mg-widget .form-control {
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.mg-widget .form-control:focus {
+    border-color: var(--main-bg-color);
+    background-color: transparent;
+}
+
+.mg-widget .mg-recnt-posts .mg-recnt-post {
+    border-bottom-width: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mg-widget .mg-recnt-posts .mg-recnt-post p {
+    margin-bottom: 0;
+}
+
+.mg-widget .mg-recnt-posts .mg-recnt-post .mg-rp-date {
+    color: #fff;
+}
+
+.mg-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mg-widget ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mg-widget ul li a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.mg-widget ul li a:hover {
+    color: #fff;
+}
+
+.mg-widget .tagcloud a {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mg-widget .tagcloud a:hover {
+    background-color: var(--main-bg-color);
+}
+
+.tagcloud a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    color: #fff;
+    border-radius: 1px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.tagcloud a:hover {
+    background-color: var(--main-bg-color);
+}
+
+.mg-post-nav {
+    margin-bottom: 70px;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--main-bg-color);
+}
+
+.mg-post-nav a {
+    padding: 10px;
+    display: block;
+    color: #adb9bf;
+}
+
+.mg-post-nav a:hover {
+    color: var(--main-bg-color);
+}
+
+.mg-post-nav > div {
+    width: 50%;
+}
+
+.mg-post-nav div + div {
+    text-align: right;
+}
+.section-reviews {
+    padding-top: 2rem;
+}
+.recent-reviews {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.recent-reviews span {
+    font-style: italic;
+    color: #fffc3f;
+}
+.review-items {
+    padding-bottom: 1rem;
+}
+.media .media-object {
+    border-radius: 50%;
+}
+
+.media .media-body {
+    position: relative;
+    width: 100%;
+}
+.media .media-body .media-body-title {
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--main-bg-color);
+}
+.media .media-body .media-body-title span {
+    font-style: italic;
+    color: var(--main-bg-color);
+}
+.media .media-body .media-body-review {
+    font-size: 12px;
+    font-style: italic;
+}

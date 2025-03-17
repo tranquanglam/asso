@@ -1,0 +1,65 @@
+.booking-container .continue {
+    min-width: 150px;
+    background-color: #e7b315;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+.booking-container .btn-coupon {
+    height: 44px;
+    border: 1px solid #e2e2e2;
+    color: #a5a5a5;
+}
+.form-control.input-coupon {
+    border: 1px solid #e2e2e2;
+}
+.form-control {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px 0;
+    background: #fff;
+    letter-spacing: .7px;
+    font-weight: 300;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 44px;
+    color: #a5a5a5;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: border .9s ease;
+    -o-transition: border .9s ease;
+    transition: border .9s ease;
+}
+.form-control::-webkit-input-placeholder,
+.form-control:-moz-placeholder,
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder {
+    color: #ced4d7;
+}
+.form-control:focus {
+    border-color: #e7b315;
+    box-shadow: none;
+}
+.help-block {
+    color: #d9534f;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.content-booking .continue {
+    min-width: 150px;
+    background-color: #e7b315;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}

@@ -1,0 +1,210 @@
+.navbar {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.mg-post {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px !important;
+}
+.odd {
+    background-color: #fff;
+}
+.even {
+    background-color: #D9E9F3;
+}
+.mg-post-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(27,81,71,1);
+    line-height: 0.1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(27,81,71,1);
+    font-size: 50px;
+}
+.mg-post-title span {
+    padding:0 10px;
+}
+.odd span {
+    background-color: #fff;
+}
+.even span {
+    background-color: #D9E9F3;
+}
+.blog-content {
+    margin-top: 40px;
+}
+.blog-content table {
+    margin: 0 auto;
+}
+.fullwidth_section .fluid-width-video-wrapper {
+    padding: 0 !important;
+}
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.fullwidth_section .myVideo {
+    position: static;
+    display: block;
+    min-height: 810px;
+}
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(100vw/1.77777778);
+}
+embed, iframe, object, video {
+    max-width: 100%;
+}
+.product-box {
+    background-color: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.product-box .image-wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.product-box .image-wrapper img {
+    width: 100%;
+    min-height: 100px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.product-box .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(27,81,71, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+.product-box .image-wrapper:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+.product-box .detail-wrapper {
+    background-color: #fff;
+    max-width: 100%;
+    min-height: 60px;
+    padding: 10px 15px;
+    color: rgba(27,81,71,1);
+}
+.product-box .detail-wrapper .border-top-dot {
+    border-top: dotted 1px #D9E9F3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.product-box .detail-wrapper span {
+    color: rgba(27,81,71, 0.72);
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .mg-blog-list {
+        padding: 10px 0 100px !important;
+    }
+    .mg-post{
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .mg-post-title {
+        font-size: 27px;
+    }
+    .blog-content img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .mg-post{
+        padding-right: 0px;
+    }
+    .fullwidth_section .myVideo {
+        min-height: 400px;
+    }
+}
+#config-tool {
+    position: fixed;
+    right: 0;
+    top: 120px;
+    width: 360px;
+    z-index: 1000;
+    transition: all 0.2s ease-in-out 0s; }
+#config-tool #config-tool-cog {
+    background: #fff;
+    border-radius: 3px 0 0 3px;
+    box-shadow: -3px 3px 3px -2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    left: -50px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    transition: all 0.1s ease-in-out 0s;
+    top: 0; }
+#config-tool.closed #config-tool-cog i {
+    color: rgba(27,81,71,1);
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite; }
+#config-tool.closed #config-tool-cog:hover {
+    background-color: rgba(27,81,71,0.5);
+    color: #fff; }
+#config-tool #config-tool-cog i {
+    font-size: 2.2em;  }
+#config-tool-cog .fa-stack[data-count]:after{
+    position:absolute;
+    right:0%;
+    top:1%;
+    content: attr(data-count);
+    font-size:50%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: rgba(27,81,71,1);
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width:2em;
+    font-weight:bold;
+}
+#config-tool #config-tool-options {
+    background: #fff;
+    box-shadow: -3px 3px 3px -2px rgba(0, 0, 0, 0.1);
+    padding: 15px; }
+#config-tool #config-tool-options span {
+    margin: 0;
+    font-size: 1.3em; }
+#config-tool.closed {
+    right: -360px; }
+#config-tool.opened {
+    right: 0; }
+#checkRateForm {
+    padding-top: 10px;
+}

@@ -1,0 +1,304 @@
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "kg:/g/11xklt98l",
+      "url": "https://www.dongtravel.com/",
+      "mainEntityofPage": {
+        "@type": "Webpage",
+        "@id": "https://www.dongtravel.com/#webpage"
+      },
+      "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Visa"
+      ],
+      "priceRange": "5000000 VND - 30000000 VND",
+      "slogan": "Đông Travel: combo du lịch, tour, khách sạn chất mà rẻ",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress ",
+          "addressCountry": "Việt Nam",
+          "postalCode": "70000",
+          "addressLocality": "Quận 1",
+          "addressRegion": "Thành phố Hồ Chí Minh",
+          "streetAddress": "178/3 Pasteur, Quận 1, Tp. Hồ Chí Minh"
+        },
+        "hasMap": "https://www.google.com/maps?cid=1202881909757590383"
+      },
+      "taxID": "0306097091",
+      "founder": {
+        "@type": "Person",
+        "url": "https://www.dongtravel.com/page/dong-hoang-thinh",
+        "@id": "https://www.dongtravel.com/page/dong-hoang-thinh#person",
+        "name": "Đồng Hoàng Thịnh",
+        "birthDate": "1980-03-10",
+        "honorificPrefix": "Mr",
+        "honorificSuffix": "MA",
+        "description": "Để tạo nên sự thành công của Đông Travel không thể không kể đến những cống hiến tận tâm và sự nỗ lực của CEO Đồng Hoàng Thịnh",
+        "image": "https://www.dongtravel.com/files/sites/40/dong-hoang-thinh.jpeg",
+        "gender": "https://schema.org/Male",
+        "email": "md@dongthi.vn",
+        "jobTitle": {
+          "@type": "DefinedTerm",
+          "name": "CEO"
+        },
+        "sameAs": [
+          "https://www.facebook.com/thinhdonghoang",
+          "https://www.linkedin.com/in/donghoangthinh",
+          "https://www.instagram.com/donghoangthinh/",
+          "https://www.twitter.com/donghoangthinh",
+          "http://donghoangthinhdongtravel.bravesites.com/",
+          "https://www.travelenet.com/page/team.html",
+          "https://www.facebook.com/thinhdonghoang",
+          "https://donghoangthinhdongtravel.mystrikingly.com/"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "0983068968",
+          "email": "md@dongthi.vn",
+          "areaServed": "VN",
+          "availableLanguage": [
+            "Vietnamese",
+            "English"
+          ]
+        }
+      },
+      "currenciesAccepted": [
+        "VND",
+        "USD"
+      ],
+      "actionableFeedbackPolicy": "https://www.dongtravel.com/page/chinh-sach-bao-mat",
+      "disambiguatingdescription": "Đặt ngay ✅Du lịch ✅Chất Lượng Cao ✅Giá Rẻ tại dongtravel.com: combo, tour du lịch, phòng khách sạn, du thuyền, vé máy bay, thuê xe riêng",
+      "legalName": "Công ty TNHH Đồng Thị",
+      "foundingDate": "2008",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minvalue": "10",
+        "maxvalue": "100",
+        "value": "10"
+      },
+      "foundingLocation": {
+        "@type": "place",
+        "name": "Hồ Chí Minh",
+        "@id": "kg:/m/0hn4h",
+        "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+        "address": "178/3 Pasteur, Quận 1, Tp. Hồ Chí Minh"
+      },
+      "additionaltype": [
+        "https://en.wikipedia.org/wiki/Travel_Website",
+        "https://en.wikipedia.org/wiki/Tour_operator"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.dongtravel.com/#logo",
+        "url": "https://enet.sgp1.cdn.digitaloceanspaces.com/tours/files/sites/40/logo_dong_travel.png",
+        "height": "75",
+        "width": "105",
+        "caption": "Đông Travel"
+      },
+      "hasMap": "https://www.google.com/maps?cid=1202881909757590383",
+      "email": "cs@dongtravel.com",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Combo du lịch",
+        "numberOfItems": "8",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Combo Phú Quốc",
+            "url": "https://www.dongtravel.com/combo-du-lich/phu-quoc",
+            "@id": "https://www.dongtravel.com/combo-du-lich/phu-quoc#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Sapa",
+            "url": "https://www.dongtravel.com/combo-du-lich/sa-pa/",
+            "@id": "https://www.dongtravel.com/combo-du-lich/sa-pa/#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Đà Nẵng",
+            "url": "https://www.dongtravel.com/combo-du-lich/da-nang",
+            "@id": "https://www.dongtravel.com/combo-du-lich/da-nang#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Nha Trang",
+            "url": "https://www.dongtravel.com/combo-du-lich/nha-trang",
+            "@id": "https://www.dongtravel.com/combo-du-lich/nha-trang#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Hạ Long",
+            "url": "https://www.dongtravel.com/combo-du-lich/ha-long",
+            "@id": "https://www.dongtravel.com/combo-du-lich/ha-long#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Đà Lạt",
+            "url": "https://www.dongtravel.com/combo-du-lich/da-lat",
+            "@id": "https://www.dongtravel.com/combo-du-lich/da-lat#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Quy Nhơn",
+            "url": "https://www.dongtravel.com/combo-du-lich/quy-nhon",
+            "@id": "https://www.dongtravel.com/combo-du-lich/quy-nhon#combo"
+          },
+          {
+            "@type": "Offer",
+            "name": "Combo Vũng Tàu",
+            "url": "https://www.dongtravel.com/combo-du-lich/vung-tau",
+            "@id": "https://www.dongtravel.com/combo-du-lich/vung-tau#combo"
+          }
+        ]
+      },
+      "naics": "561510",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Quận 1",
+        "addressCountry": "Việt Nam",
+        "addressRegion": "Thành phố Hồ Chí Minh",
+        "postalCode": "700000",
+        "streetAddress": "178/3 Pasteur, Quận 1, Tp. Hồ Chí Minh"
+      },
+      "description": "Đặt ngay ✅Du lịch ✅Chất Lượng Cao ✅Giá Rẻ tại dongtravel.com: combo, tour du lịch, phòng khách sạn, du thuyền, vé máy bay, thuê xe riêng",
+      "name": "Đông Travel",
+      "telephone": "0948891000",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "10.779070009939376",
+        "longitude": "106.69884646136585"
+      },
+      "areaserved": {
+        "@type": "AdministrativeArea",
+        "name": "Vietnam",
+        "url": "https://en.wikipedia.org/wiki/Vietnam",
+        "@id": "kg:/m/01crd5",
+        "hasMap": "https://www.google.com/maps?cid=12698937955444482750"
+      },
+      "potentialAction": {
+        "@type": "CommunicateAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.dongtravel.com/page/lien-he/",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/IOSPlatform",
+            "https://schema.org/AndroidPlatform"
+          ]
+        },
+        "result": {
+          "@type": "QuoteAction",
+          "name": "Tư vấn báo giá"
+        }
+      },
+      "contactPoint": {
+        "@type": "contactPoint",
+        "email": "cs@dongtravel.com",
+        "telephone": "0948891000"
+      },
+      "sameAs": [
+        "https://www.facebook.com/dongtravelvietnam/",
+        "https://www.facebook.com/dongtravelvietnam/",
+        "https://www.tiktok.com/@dongtravelvietnam?lang=vi-VN",
+        "https://www.youtube.com/channel/UCY1xLbRItabZ3C29O7PxHPQ",
+        "https://twitter.com/dongtravel/",
+        "https://www.linkedin.com/company/dongtravel/",
+        "https://www.pinterest.com/dongtravel/",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d2355488-Reviews-Dong_Travel-Ho_Chi_Minh_City.html"
+      ]
+    },
+    {
+      "@type": "Website",
+      "@id": "https://www.dongtravel.com/#website",
+      "url": "https://www.dongtravel.com/",
+      "name": "Đông Travel",
+      "inLanguage": "vi-VN",
+      "description": "Đặt ngay ✅Du lịch ✅Chất Lượng Cao ✅Giá Rẻ tại dongtravel.com: combo, tour du lịch, phòng khách sạn, du thuyền, vé máy bay, thuê xe riêng",
+      "copyrightHolder": {
+        "@id": "kg:/g/11xklt98l"
+      },
+      "author": {
+        "@id": "kg:/g/11xklt98l"
+      },
+      "publisher": {
+        "@id": "kg:/g/11xklt98l"
+      },
+      "potentialAction": {
+        "@type": "BuyAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.dongtravel.com/san-pham/",
+          "inLanguage": "vn",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/IOSPlatform",
+            "http://schema.org/AndroidPlatform"
+          ]
+        }
+      }
+    },
+    {
+      "@type": "Webpage",
+      "@id": "https://www.dongtravel.com/#webpage",
+      "url": "https://www.dongtravel.com/",
+      "name": "Đông Travel",
+      "headline": "Đông Travel: combo du lịch, tour, khách sạn chất mà rẻ",
+      "keywords": [
+        "Đông Travel",
+        "dong travel",
+        "dongtravel",
+        "Công thy TNHH Đồng Thị",
+        "Công ty du lịch lữ hành Đông Travel"
+      ],
+      "isPartOf": {
+        "@id": "https://www.dongtravel.com/#website"
+      },
+      "inLanguage": "vi-VN",
+      "primaryImageOfPage": {
+        "@id": "https://www.dongtravel.com/#primaryimage"
+      },
+      "thumbnailUrl": "https://enet.sgp1.cdn.digitaloceanspaces.com/tours/files/sites/40/logo_dong_travel.png",
+      "description": "Đặt ngay ✅Du lịch ✅Chất Lượng Cao ✅Giá Rẻ tại dongtravel.com: combo, tour du lịch, phòng khách sạn, du thuyền, vé máy bay, thuê xe riêng"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.dongtravel.com/#primaryimage",
+      "inLanguage": "vi-VN",
+      "url": "https://enet.sgp1.cdn.digitaloceanspaces.com/tours/files/sites/40/logo_dong_travel.png",
+      "height": "75",
+      "width": "105",
+      "caption": "Logo Đông Travel",
+      "representativeOfPage": "True",
+      "thumbnail": "https://enet.sgp1.cdn.digitaloceanspaces.com/tours/files/sites/40/logo_dong_travel.png",
+      "contentSize": "8KB",
+      "contentUrl ": "https://enet.sgp1.cdn.digitaloceanspaces.com/tours/files/sites/40/logo_dong_travel.png",
+      "encodingFormat": ".jpg",
+      "uploadDate": "2008",
+      "description": "hình ảnh Logo Đông Travel",
+      "accessMode": "visual",
+      "schemaVersion": "13.0",
+      "alternateName": "Logo của Đông Travel",
+      "name": "logo_dong_travel"
+    }
+  ]
+}

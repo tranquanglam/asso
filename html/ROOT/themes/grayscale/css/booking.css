@@ -1,0 +1,68 @@
+.booking-container .continue {
+    min-width: 150px;
+    background-color: #e7b315;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+.booking-container .btn-coupon {
+    height: 44px;
+    border: 1px solid #e2e2e2;
+    color: #a5a5a5;
+}
+.form-control.input-coupon {
+    border: 1px solid #e2e2e2;
+}
+.form-control {
+
+}
+.form-control::-webkit-input-placeholder,
+.form-control:-moz-placeholder,
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder {
+    color: #ced4d7;
+}
+.form-control:focus {
+    border-color: #e7b315;
+    box-shadow: none;
+}
+.help-block {
+    color: #d9534f;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.content-booking .continue {
+    min-width: 150px;
+    background-color: #e7b315;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+
+.form-floating {
+    margin-bottom: 0.7em;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    width: 80%;
+}
+.product-items-quantity.form-control {
+    padding: 0.2rem 0.5rem;
+}
+
+.product-items-totalamount{
+    font-size: 1.5em;
+    color: red;
+    font-weight: bolder;
+}
